@@ -30,7 +30,6 @@ const spacex = {
               vehicle
             });
           });
-          // console.log(rows);
           resolve(rows);
           return;
         }

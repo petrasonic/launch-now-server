@@ -25,22 +25,6 @@ router.get('/launches', (req, res) => {
   let { agency } = req.query;
   let data = [];
 
-  // filter agencies
-  if(agency){
-    agency = agency.split(',');
-    agency = config.SUPPORTED_AGENCIES.filter(value => agency.indexOf(value) !== -1);
-  } else {
-    agency = config.SUPPORTED_AGENCIES;
-  }
-
-  // get data for all agencies
-  // for(let i in agency){
-  //   switch (agency[i]){
-  //     case 'spacex':
-  //       data = launchData;
-  //   }
-  // }
-
   res.json(launchData);
 });
 
