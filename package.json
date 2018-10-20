@@ -1,0 +1,25 @@
+{
+  "name": "launch-now-server",
+  "version": "1.0.0",
+  "description": "Gathers rocket launch data and makes it available via an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrasonic/launch-now-server.git"
+  },
+  "author": "Dave Petrasovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrasonic/launch-now-server/issues"
+  },
+  "homepage": "https://github.com/petrasonic/launch-now-server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
